@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-color:hsl(225, 100%, 98%) ;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 416px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-top img{
+    width: 100%;
+}
+
+.description .summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.summary h3{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.summary p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-right: 65px;
+    margin-left: 65px;
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(225, 100%, 98%);
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    gap: 20px;
+
+}
+
+
+.price{
+    display: flex;
+    flex-direction: column;
+}
+
+.price p{
+    margin-top: 8px;
+    color: hsl(224, 23%, 55%);
+}
+
+.change{
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.change a{
+    color: hsl(245, 75%, 52%);
+}
+.change a:hover{
+    text-decoration: none;
+    color:hsl(228, 45%, 44%);
+}
+
+.payment{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.payment button{
+    background-color: hsl(245, 75%, 52%);
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+}
+
+.payment button:hover{
+    background-color:hsl(229, 42%, 48%);
+}
+
+.payment button a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.cancel {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cancel a{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+    font-size: 13px;
+}
